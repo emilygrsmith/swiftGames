@@ -7,7 +7,7 @@
   
   /* Styles for guessed songs */
   .song-cell.guessed {
-    background-color: lightgreen;
+    background-color: rgb(196, 230, 196);
   }
   
   /* Container for the tables */
@@ -23,4 +23,13 @@
   .reputation, .lover, .folklore,.evermore{
     margin-right: 9px;
   }
-  
+.topScreen
+{
+    text-align:center;
+}
+.unguessed {
+    color: red; /* or any other color you prefer */
+  }
+  .hidden{
+      display: none;
+  }
