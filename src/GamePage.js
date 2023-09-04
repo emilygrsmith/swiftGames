@@ -1,18 +1,18 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useNavigate,Link } from 'react-router-dom';
 import './GamePage.css'
+import SongList from './SongList'
 function GamePage()
 {
-    // const navigate = useNavigate();
-    // const login = () =>
-    // {
-    //     navigate("Login")
-    // }
+    const navigate = useNavigate();
+    const gameOne = () =>
+    {
+        navigate("/SongList");
+    }
     return(
-        <div class="main">
-            <h1>Welcome to Your Planner</h1>
-            {/* <button onClick = {login}>Click to Begin</button> */}
-        </div>
+        <div className = 'gameOne'>
+        <button className = 'gameOne' onClick = {gameOne}>Song Tracker</button></div>
+       
     );
 }
 export default GamePage;

@@ -6,13 +6,14 @@ function Home()
     const navigate = useNavigate();
     const home = () =>
     {
-        navigate("Home")
+        navigate("GamePage")
     }
     return(
-        <div class="main">
+        <div className="main">
             <h1>Welcome to Taylor Swift Games</h1>
-            <button onClick = {home}>Click to Continue</button>
-        </div>
+           
+            <button className = 'continue' onClick = {home}>Click to Continue</button></div>
+       
     );
 }
 export default Home;

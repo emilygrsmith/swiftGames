@@ -1,0 +1,26 @@
+.song-cell {
+    border: 1px solid #000;
+    text-align: center;
+    width: 200px;
+    height: 30px;
+  }
+  
+  /* Styles for guessed songs */
+  .song-cell.guessed {
+    background-color: lightgreen;
+  }
+  
+  /* Container for the tables */
+  .table-container,.table-container2 {
+    display: flex;
+    gap: 40px; /* Adjust the gap between tables as needed */
+  }
+  
+  /* Apply consistent margin for all tables */
+  .debut, .fearless, .speak-now, .red {
+    margin-right: 10px;
+  }
+  .reputation, .lover, .folklore,.evermore{
+    margin-right: 9px;
+  }
+  

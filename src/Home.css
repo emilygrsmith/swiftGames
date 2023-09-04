@@ -11,7 +11,7 @@ body{
     font-size: 35px;
   
   }
-  button{
+ .continue{
       background-color: #F3C8E2;
       outline-color: white;
       border-color: white;
