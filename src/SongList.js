@@ -43,7 +43,7 @@ const onClear = () => {
     
     if (enteredValue && status) {
       const songExists = realSongs.includes(enteredValue);
-
+    
       if (songExists && !guessedSongs.includes(enteredValue)) {
         setCorrectCount(correctCount + 1);
         setGuessedSongs([...guessedSongs, enteredValue]);
