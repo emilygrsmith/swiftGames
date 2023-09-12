@@ -7,15 +7,17 @@ body{
     margin-top:25%;
     margin-left:25%;
     margin-right:25%;
-    color:#F8F9DD;
+    color:#333333;
     font-size: 35px;
   
   }
  .continue{
       background-color: #F3C8E2;
       outline-color: white;
-      border-color: white;
-      border-radius: 30px;
+      border-color: #333333;
+      border-radius: 40px;
+      width: 150px; 
+    height: 50px; 
   }
   
   

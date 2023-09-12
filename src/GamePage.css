@@ -1,7 +1,9 @@
 .gameOne
 {
     background-color:white;
-    border-radius: 0px;
+    border-radius: 35px;
     height: 400px;
     width:400px;
+    margin-left:50px;
+    margin-top:50px;
 }

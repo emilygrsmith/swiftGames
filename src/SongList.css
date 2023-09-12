@@ -36,3 +36,20 @@
   .no-scroll {
     overflow-y: hidden;
   }
+  button{
+    outline-color: white;
+    border-color: #333333;
+    border-radius: 30px;;
+    width: 100px; 
+    height:40px;
+    margin-left:10px;
+    margin-top:10px;
+  
+  }
+ .trySong
+ {
+     width: 80 px;
+     height: 30px;
+     margin-bottom: 10px;
+
+ }
